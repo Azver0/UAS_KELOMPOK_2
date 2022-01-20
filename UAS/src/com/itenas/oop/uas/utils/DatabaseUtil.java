@@ -10,7 +10,7 @@ public class DatabaseUtil {
 	//url database
 	static final String DB_URL = "jdbc:mysql://localhost/data_topupin";
 	String user = "root";
-	String password = "";
+	String password = "basdat2020";
 	Connection connection = null;
 	Statement statement = null;
 	ResultSet resultSet = null;
