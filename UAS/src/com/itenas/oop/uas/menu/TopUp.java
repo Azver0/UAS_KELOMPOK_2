@@ -20,20 +20,20 @@ public class TopUp{
 				System.out.print("Pilihan Anda : ");				itemChoice = scan.nextInt();
 				switch (itemChoice) {
 				case 1 :
-					tr.setItem("25");
-					tr.setPrice(25000);
+					tr.setItem("55 Diamonds");
+					tr.setPrice(15000);
 					break;
 				case 2 :
-					tr.setItem("50");
-					tr.setPrice(50000);
+					tr.setItem("275 Diamonds");
+					tr.setPrice(75000);
 					break;
 				case 3 : 
-					tr.setItem("100");
-					tr.setPrice(100000);
+					tr.setItem("550 Diamonds");
+					tr.setPrice(150000);
 					break;
 				case 4 : 
-					tr.setItem("200");
-					tr.setPrice(200000);
+					tr.setItem("1200 Diamonds");
+					tr.setPrice(300000);
 					break;
 				case 0 : 
 					System.exit(0);
@@ -54,20 +54,20 @@ public class TopUp{
 				System.out.print("Pilihan Anda : ");				itemChoice = scan.nextInt();
 				switch (itemChoice) {
 				case 1 :
-					tr.setItem("25");
-					tr.setPrice(25000);
+					tr.setItem("56 Diamonds");
+					tr.setPrice(10000);
 					break;
 				case 2 :
-					tr.setItem("50");
-					tr.setPrice(50000);
+					tr.setItem("114 Diamonds");
+					tr.setPrice(20000);
 					break;
 				case 3 : 
-					tr.setItem("100");
-					tr.setPrice(100000);
+					tr.setItem("440 Diamonds");
+					tr.setPrice(75000);
 					break;
 				case 4 : 
-					tr.setItem("200");
-					tr.setPrice(200000);
+					tr.setItem("880 Diamonds");
+					tr.setPrice(150000);
 					break;
 				case 0 : 
 					System.exit(0);
@@ -88,20 +88,20 @@ public class TopUp{
 				System.out.print("Pilihan Anda : ");				itemChoice = scan.nextInt();
 				switch (itemChoice) {
 				case 1 :
-					tr.setItem("25");
-					tr.setPrice(25000);
+					tr.setItem("70 Diamonds");
+					tr.setPrice(10000);
 					break;
 				case 2 :
-					tr.setItem("50");
-					tr.setPrice(50000);
+					tr.setItem("120 Diamonds");
+					tr.setPrice(20000);
 					break;
 				case 3 : 
-					tr.setItem("100");
-					tr.setPrice(100000);
+					tr.setItem("360 Diamonds");
+					tr.setPrice(50000);
 					break;
 				case 4 : 
-					tr.setItem("200");
-					tr.setPrice(200000);
+					tr.setItem("720 Diamonds");
+					tr.setPrice(100000);
 					break;
 				case 0 : 
 					System.exit(0);
@@ -122,20 +122,20 @@ public class TopUp{
 				System.out.print("Pilihan Anda : ");				itemChoice = scan.nextInt();
 				switch (itemChoice) {
 				case 1 :
-					tr.setItem("25");
-					tr.setPrice(25000);
+					tr.setItem("80 Gems");
+					tr.setPrice(30000);
 					break;
 				case 2 :
-					tr.setItem("50");
-					tr.setPrice(50000);
+					tr.setItem("500 Gems");
+					tr.setPrice(80000);
 					break;
 				case 3 : 
-					tr.setItem("100");
-					tr.setPrice(100000);
+					tr.setItem("1200 Gems");
+					tr.setPrice(165000);
 					break;
 				case 4 : 
-					tr.setItem("200");
-					tr.setPrice(200000);
+					tr.setItem("2500 Gems");
+					tr.setPrice(330000);
 					break;
 				case 0 : 
 					System.exit(0);
@@ -187,10 +187,10 @@ public class TopUp{
 		System.out.println("========================");
 		System.out.println("          Menu          ");
 		System.out.println("========================");
-		System.out.println("1. 25 Diamond");
-		System.out.println("2. 50 Diamond");
-		System.out.println("3. 100 Diamond");
-		System.out.println("4. 200 Diamond");
+		System.out.println("1. 55 Diamonds");
+		System.out.println("2. 275 Diamond");
+		System.out.println("3. 550 Diamond");
+		System.out.println("4. 1200 Diamond");
 		System.out.println();
 		System.out.println("0. Log out");
 		System.out.println("------------------------");
@@ -201,10 +201,10 @@ public class TopUp{
 		System.out.println("========================");
 		System.out.println("          Menu          ");
 		System.out.println("========================");
-		System.out.println("1. 25 Crystal");
-		System.out.println("2. 50 Crystal");
-		System.out.println("3. 100 Crystal");
-		System.out.println("4. 200 Crystal");
+		System.out.println("1. 56 Diamonds");
+		System.out.println("2. 114 Diamonds");
+		System.out.println("3. 440 Diamonds");
+		System.out.println("4. 880 Diamonds");
 		System.out.println();
 		System.out.println("0. Log out");
 		System.out.println("------------------------");
@@ -215,10 +215,10 @@ public class TopUp{
 		System.out.println("========================");
 		System.out.println("          Menu          ");
 		System.out.println("========================");
-		System.out.println("1. 25 Crystal");
-		System.out.println("2. 50 Crystal");
-		System.out.println("3. 100 Crystal");
-		System.out.println("4. 200 Crystal");
+		System.out.println("1. 70 Diamonds");
+		System.out.println("2. 120 Diamonds");
+		System.out.println("3. 360 Diamonds");
+		System.out.println("4. 720 Diamonds");
 		System.out.println();
 		System.out.println("0. Log out");
 		System.out.println("------------------------");
@@ -229,10 +229,10 @@ public class TopUp{
 		System.out.println("========================");
 		System.out.println("          Menu          ");
 		System.out.println("========================");
-		System.out.println("1. 25 Crystal");
-		System.out.println("2. 50 Crystal");
-		System.out.println("3. 100 Crystal");
-		System.out.println("4. 200 Crystal");
+		System.out.println("1. 80 Gems");
+		System.out.println("2. 500 Gems");
+		System.out.println("3. 1200 Gems");
+		System.out.println("4. 2500 Gems");
 		System.out.println();
 		System.out.println("0. Log out");
 		System.out.println("------------------------");
