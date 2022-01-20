@@ -3,28 +3,30 @@ package com.itenas.oop.uas.view;
 import java.util.List;
 import java.util.Scanner;
 
+import com.itenas.oop.uas.bean.Transaksi;
 import com.itenas.oop.uas.bean.User;
+import com.itenas.oop.uas.dao.TransaksiDAO;
 import com.itenas.oop.uas.dao.UserDAO;
+import com.itenas.oop.uas.daoimpl.TransaksiDaoImpl;
 import com.itenas.oop.uas.daoimpl.UserDaoImpl;
 
-public class TableView {
-	
+public class TableViewTr {
 	public static void execute() {
-		UserDAO operation = new UserDaoImpl();
-		tableUser(operation.getAllUser());
+		TransaksiDAO operation = new TransaksiDaoImpl();
+		tableTransaksi(operation.getAllTransaksi());
 	}
 	
-	public static void tableUser(List<User> listUser) {
-		
+	public static void tableTransaksi(List<Transaksi> list) {
 		Scanner scan = new Scanner(System.in);
+		
 		System.out.println();
 		System.out.println("===================================================================================================");
 		System.out.println("|                                            Data User                                            |");
 		System.out.println("===================================================================================================");
-		System.out.println("|            Email              |             Password             |             Nama             |");
+		System.out.println("|        Username         |          Game           |         Item          |        Price        |");
 		System.out.println("===================================================================================================");
-		for (User user : listUser) {
-			System.out.println("| " + user.getEmail() + "\t\t| " + user.getPassword() + "\t\t\t   | " + user.getFirstName() + "\t\t\t  |");
+		for (Transaksi transaksi : list) {
+			System.out.println("| " + transaksi.getUsername() + " \t\t  | " + transaksi.getGame() + "\t    | " + transaksi.getItem() + "\t\t    | " + transaksi.getPrice() + "\t\t |");
 		}
 		System.out.println("===================================================================================================");
 	}

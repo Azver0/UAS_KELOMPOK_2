@@ -16,11 +16,27 @@ public class Form {
 		System.out.println("        Input Data         ");
 		System.out.println("===========================");
 		System.out.print("Email     : ");		user.setEmail(scan.nextLine());
-		System.out.print("Password  : "); 	user.setFirstName(scan.nextLine());
+		System.out.print("Password  : "); 		user.setPassword(scan.nextLine());
 		System.out.print("Username  : ");		user.setFirstName(scan.nextLine());
 		System.out.println("===========================");
 		
 		operation.register(user);
+	}
+	
+	public static void registerFormAdmin() {
+		Scanner scan = new Scanner(System.in);
+		User user = new User();
+		UserDAO operation = new UserDaoImpl();
+		
+		System.out.println("===========================");
+		System.out.println("        Input Data         ");
+		System.out.println("===========================");
+		System.out.print("Email     : ");		user.setEmail(scan.nextLine());
+		System.out.print("Password  : "); 		user.setPassword(scan.nextLine());
+		System.out.print("Username  : ");		user.setFirstName(scan.nextLine());
+		System.out.println("===========================");
+		
+		operation.registerAdmin(user);
 	}
 	
 	public static void deleteForm() {
@@ -35,5 +51,19 @@ public class Form {
 		operation.deleteUser(user);
 	}
 	
-	
+	public static void updateForm() {
+		Scanner scan = new Scanner(System.in);
+		User user = new User();
+		UserDAO operation = new UserDaoImpl();
+		
+		System.out.println("===========================");
+		System.out.println("        Update Data        ");
+		System.out.println("===========================");
+		System.out.print("Email     : ");		user.setEmail(scan.nextLine());
+		System.out.print("Password  : "); 		user.setPassword(scan.nextLine());
+		System.out.print("Username  : ");		user.setFirstName(scan.nextLine());
+		System.out.println("===========================");
+		
+		operation.updateUser(user);
+	}
 }
